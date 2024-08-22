@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # renseigner quoiqui et ou
-quoiqui = "entreprise de plomberie"
-ou = "Saint Laurent du Maronie"
+quoiqui = "entreprise+de+plomberie"
+ou = "Saint+Laurent+du+Maronie"
 login_url = f"https://www.pagesjaunes.fr/annuaire/chercherlespros?quoiqui={quoiqui}&ou={ou}+%2897320%29&univers=pagesjaunes&idOu="
 # login_url = f"https://www.pagesjaunes.fr/annuaire/chercherlespros?quoiqui=entreprise+de+plomberie&ou=Saint+Laurent+du+Maroni+%2897320%29&univers=pagesjaunes&idOu="
 result_url = f"https://www.pagesjaunes.fr/annuaire/chercherlespros?quoiqui={quoiqui}&ou={ou}+%2897320%29&univers=pagesjaunes&idOu="
